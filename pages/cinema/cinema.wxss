@@ -1,0 +1,47 @@
+/* pages/cinema/cinema.wxss */
+.cinema_body{
+  font-size:16px;
+  color:#848484;
+  min-width:100%;
+}
+.cinema_title{
+  height:35px;
+  line-height:35px;
+  border:1px solid #000;
+  background-image:linear-gradient(#fff,#337AB7);
+  text-align: center;
+  border-radius:20px;
+}
+.title_text{
+  font-size:20px;
+  font-weight:bold;
+  color:#000;
+}
+.cinema_list{
+  box-sizing:border-box;
+  overflow: hidden;
+  width:100%;
+  padding:5px 10px;
+  border-bottom:1px solid #aaa;
+}
+.cinema_header{
+  font-size:20px;
+  font-weight:bold;
+  color:#f1790f;
+  margin-bottom:8px;
+}
+.cinema_site{
+  width:100%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.base{
+  display:flex;
+  width:100%;
+  justify-content:space-between;
+  color:343434;
+}
+.price{
+  color:#f1790f;
+}

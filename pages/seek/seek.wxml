@@ -1,0 +1,30 @@
+<!--pages/seek/seek.wxml-->
+<view class="seek">
+  <view class="seek_bar">
+    <view class="seek_body">
+      <icon type="{{iconType}}" size="20" color="#aaa" />
+      <input type="text" class="seek_input"></input>
+    </view>
+  </view>
+  <view class="movie" wx:if="{{false}}">
+    <view class="pic">
+      <image src="{{item.img}}" class="image_info"></image>
+    </view>
+    <!-- 电影详情 -->
+    <view class="movie_info">
+      <view class='base_header'>
+        {{item.nm}}
+      </view>
+      <view class='base_info'>
+        评分：
+        <text class="sc">{{item.sc}}分</text>
+      </view>
+      <view class='base_info text_nowrap'>
+        主演：{{item.star}}
+      </view>
+      <view class="base_details">
+        上映时间：{{item.rt}}
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class='content'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item {{item}}">
+          <image src="{{item}}"></image>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+   <view class="show">正在热映</view>
+    <block wx:for="{{movie}}" wx:key="*this">
+     <view class="movie">
+        <view class="pic">
+          <image src="{{item.img}}" class="image_info"></image>
+        </view>
+        <!-- 电影详情 -->
+        <view class="movie_info">
+          <view class='base_header'>
+            {{item.nm}}
+          </view>
+          <view class='base_info'>
+            评分： <text class="sc">{{item.sc}}分</text>
+          </view>
+          <view class='base_info text_nowrap'>
+            主演：{{item.star}}
+          </view>
+          <view class="base_details">
+            上映时间：{{item.rt}}
+          </view>
+        </view>
+      </view>
+     
+    </block>
+</view>

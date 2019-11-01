@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cinema/cinema",
+    "pages/seek/seek"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#337AB7",
+    "navigationBarTitleText": "乐天影院",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#09bb07",
+    "backgroundColor": "#337AB7",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "text",
+      "iconPath": "./icon/movie/电影.png",
+      "selectedIconPath": "./icon/select/电影.png"
+    },
+    {
+      "pagePath": "pages/cinema/cinema",
+      "text": "text",
+      "iconPath": "./icon/movie/影院.png",
+      "selectedIconPath": "./icon/select/影院.png"
+    },
+    {
+      "pagePath": "pages/seek/seek",
+      "text": "text",
+      "iconPath": "./icon/movie/查询.png",
+      "selectedIconPath": "./icon/select/查询.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,74 @@
+/* pages/seek/seek.wxss */
+.seek{
+  font-size:16px;
+  color:#343434;
+}
+.seek_bar{
+  width:100%;
+  height:80px;
+  display:flex;
+  align-items:center;
+  background-color:#3393b9;
+  border:1px solid #eee;
+}
+.seek_body{
+  border:1px solid #343434;
+  position:relative;
+  width:255px;
+  height:35px;
+  margin:0 auto;
+  padding:5px;
+  border-radius:10px;
+  background-color:#ecf8fd;
+}
+.seek_body icon{
+  position:absolute;
+  left:7px;
+  top:13px;
+ }
+.seek_input{
+  position:absolute;
+ width:230px;
+ height:35px;
+ right:0;
+}
+/* 搜索的电影 */
+.movie{
+  margin-top:5px;
+  padding:0 10px;
+  padding-bottom:5px;
+  display:flex;
+  border-bottom:1px solid #aaa;
+}
+.movie .pic image{
+  width:100px;
+  height:150px;
+  vertical-align: top;
+  border-radius:6px;
+}
+.movie_info{
+  width:100%;
+  padding-left:20px;
+}
+.base_header{
+  font-size: 20px;
+  padding-top:14px;
+  line-height:20px;
+  font-weight:bold;
+}
+.base_info{
+  padding-top:10px;
+}
+.base_details{
+  width:14rem;
+  padding-top:10px;
+}
+.text_nowrap{
+  width:70%;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space: nowrap;
+}
+.sc{
+  color:#f40;
+}

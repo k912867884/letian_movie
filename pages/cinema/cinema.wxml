@@ -1,0 +1,32 @@
+<!--pages/cinema/cinema.wxml-->
+<view class="cinema_body">
+ <view class="cinema_title">
+   <text class="title_text">影院列表</text>
+ </view>
+  <view class="cinema_list" wx:for="{{cinema}}" wx:key="this">
+    <view class="cinema_header">
+      <!-- 喜洋时代影城（花都星光汇店） -->
+      {{item.nm}}
+    </view>
+    <view class="cinema_site">
+      <!-- 地址：花都区建设北路72号星光汇商厦8楼,花都区建设北路72号星光汇商厦8楼 -->
+        {{item.addr}}
+    </view>
+    <view class="base">
+      人均：<text class="price">{{item.sellPrice}}</text>
+      距离：<text class="short">{{item.distance}}</text>
+    </view>
+  </view>
+    <view class="cinema_list">
+    <view class="cinema_header">
+      喜洋时代影城（花都星光汇店）
+    </view>
+    <view class="cinema_site">
+      地址：花都区建设北路72号星光汇商厦8楼,花都区建设北路72号星光汇商厦8楼
+    </view>
+    <view class="base">
+      <text class="price">人均：19.9</text>
+      <text class="short">距离：1860.2km</text>
+    </view>
+  </view>
+</view>
