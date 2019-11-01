@@ -10,7 +10,7 @@
   border:1px solid #000;
   background-image:linear-gradient(#fff,#337AB7);
   text-align: center;
-  border-radius:20px;
+ 
 }
 .title_text{
   font-size:20px;

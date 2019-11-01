@@ -9,7 +9,9 @@
       </swiper-item>
     </block>
   </swiper>
-   <view class="show">正在热映</view>
+  <view class="show_bar">
+    <view class="show">正在热映</view>
+  </view>
     <block wx:for="{{movie}}" wx:key="*this">
      <view class="movie">
         <view class="pic">
